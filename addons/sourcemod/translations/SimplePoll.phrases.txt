@@ -1,0 +1,70 @@
+"Phrases"
+{
+	"poll_prefix"
+	{
+		"cze"		"{default}[{olive}Anketa{default}]"
+		"en"			"{default}[{olive}SimplePoll{default}]"
+	}
+	"poll_started"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:s}"
+		"cze"		"Hráč {lime}{1}{default} vytvořil Anketu: {green}{2} {default}Odpovídat můžete Příkazy {green}{3} {darkred}{4}{default}."
+		"en"			"Player {lime}{1}{default} created a Poll: {green}{2} {default}You can answer via the commands {green}{3} {darkred}{4}{default}."
+	}
+	"poll_vote"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"cze"		"Hlasoval si v Anketě {lime}{1}{default} Ano: {green}{2}{default} Ne: {darkred}{3}{default}."
+		"en"			"You have voted in the Poll {lime}{1}{default} Yes: {green}{2}{default} No: {darkred}{3}{default}."
+	}
+	"poll_another_started"
+	{
+		"cze"		"Právě je aktivní Anketa."
+		"en"			"There's already a Poll running."
+	}
+	"poll_command_usage"
+	{
+		"#format"		"{1:s}"
+		"cze"		"Použí {1} <otázka>"
+		"en"			"Use {1} <question>"
+	}
+	"poll_cooldown"
+	{
+		"#format"		"{1:d}"
+		"cze"		"Aby si mohl zapnout anketu musíš počkat {green}{1} minut{default}."
+		"en"			"To start a Poll, you have to wait {green}{1} minutes{default}."
+	}
+	"poll_ended"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"cze"		"{green}{1}{default} skončila s ANO: {green}{2}{default} NE: {darkred}{3}{default}."
+		"en"			"{green}{1}{default} ended with YES: {green}{2}{default} NO: {darkred}{3}{default}."
+	}
+	"poll_not_started"
+	{
+		"cze"		"Právě neprobíhá žádná anketa."
+		"en"			"Currently there's no Poll running."
+	}
+	"poll_already_voted"
+	{
+		"cze"		"Už si hlasoval v anketě."
+		"en"			"You have already voted in the Poll."
+	}
+	"poll_removed_reasoned"
+	{
+		"#format"		"{1:N},{2:s}"
+		"cze"		"{lime}{1}{default} zrušil Anketu zdůvodu {green}{2}{default}."
+		"en"			"{lime}{1}{default} cancelled the Poll. The reason is {green}{2}{default}."
+	}
+	"poll_removed"
+	{
+		"#format"		"{1:N}"
+		"cze"		"{lime}{1}{default} zrušil Anketu."
+		"en"			"{lime}{1}{default} cancelled the Poll."
+	}
+	"poll_no_permission"
+	{
+		"cze"		"{darkred}Nemáš Přístup k tomuto příkazu!"
+		"en"			"{darkred}You don't have the permission to use this command!"
+	}
+}

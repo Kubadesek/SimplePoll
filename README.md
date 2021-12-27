@@ -3,6 +3,8 @@ This is simple plugin for Poll on Sourcemod Server. All Command are customizable
 
 ## Plugin by Kubad from www.kbd.wtf
 
+Link on Modders: https://forums.alliedmods.net/showthread.php?p=2767046#post2767046
+
 ### ConCvars
 - `sm_simplepoll_flag_cmd` - Flag for Access SimplePoll Command. Use '-' Access for Everyone.
 - `sm_simplepoll_cmd` - this is main command for SimplePoll must be started by 'sm_' and they can be 6 max.
